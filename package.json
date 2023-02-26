@@ -1,0 +1,24 @@
+{
+  "name": "kyiv-extension",
+  "version": "2.0.0",
+  "description": "Replaces Russian city names with Ukrainian equivalents. 💪 🇺🇦",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anroche/kyiv-extension/blob/main/manifest.json"
+  },
+  "author": "Anroche",
+  "license": "MIT",
+  "dependencies": {
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "typescript": "^4.9.5",
+    "webpack-cli": "^5.0.1"
+  }
+}
